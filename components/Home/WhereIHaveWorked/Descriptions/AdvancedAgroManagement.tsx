@@ -5,17 +5,11 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function AdvancedAgroManagement() {
   const tasks = [
     {
-      text: "Developed and Build a new version customizable website for Advanced Agro Management.",
-      keywords: ["Advanced Agro Management"],
+      text: "Developed and maintained the ProgressYourHealth's landing page website using WordPress and PHP.",
+      keywords: ["WordPress", "PHP", "ProgressYourHealth\'s"],
+
     },
-    {
-      text: "Monitored website performance and handled troubleshooting and WordPress issues.",
-      keywords: ["MOnitored","WordPress issues"],
-    },
-    {
-      text: "Managed company WordPress website back-end with Oracle Database including plugins, tools, and themes.",
-      keywords: ["Oracle Database"],
-    },
+
   ];
   return (
     <>
@@ -23,7 +17,7 @@ export default function AdvancedAgroManagement() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Developer <span className="text-AAsecondary">@ Wordpress</span>
+            Website Maintainance <span className="text-AAsecondary">@ Upwork</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">june - August 2019</span>
